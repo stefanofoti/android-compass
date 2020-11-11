@@ -89,7 +89,7 @@ class CompassView(context: Context?) : View(context), SensorEventListener2 {
 
         yaw = mLastOrientation[0]
 
-        //invalidate()
+        invalidate()
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
